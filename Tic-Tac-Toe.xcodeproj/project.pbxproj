@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD56D40C266F853F00B1F137 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD56D40B266F853F00B1F137 /* MainViewController.swift */; };
 		ADAABA60266776990095800F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAABA5F266776990095800F /* AppDelegate.swift */; };
 		ADAABA62266776990095800F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAABA61266776990095800F /* SceneDelegate.swift */; };
 		ADAABA64266776990095800F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAABA63266776990095800F /* ViewController.swift */; };
@@ -14,9 +15,11 @@
 		ADAABA6A266776990095800F /* Tic_Tac_Toe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ADAABA68266776990095800F /* Tic_Tac_Toe.xcdatamodeld */; };
 		ADAABA6C2667769B0095800F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADAABA6B2667769B0095800F /* Assets.xcassets */; };
 		ADAABA6F2667769B0095800F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADAABA6D2667769B0095800F /* LaunchScreen.storyboard */; };
+		ADAABA78266776B50095800F /* Logic.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADAABA77266776B50095800F /* Logic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD56D40B266F853F00B1F137 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		ADAABA5C266776990095800F /* Tic-Tac-Toe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tic-Tac-Toe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADAABA5F266776990095800F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADAABA61266776990095800F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		ADAABA6B2667769B0095800F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADAABA6E2667769B0095800F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADAABA702667769B0095800F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADAABA77266776B50095800F /* Logic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +65,13 @@
 				ADAABA5F266776990095800F /* AppDelegate.swift */,
 				ADAABA61266776990095800F /* SceneDelegate.swift */,
 				ADAABA63266776990095800F /* ViewController.swift */,
+				AD56D40B266F853F00B1F137 /* MainViewController.swift */,
 				ADAABA65266776990095800F /* Main.storyboard */,
 				ADAABA6B2667769B0095800F /* Assets.xcassets */,
 				ADAABA6D2667769B0095800F /* LaunchScreen.storyboard */,
 				ADAABA702667769B0095800F /* Info.plist */,
 				ADAABA68266776990095800F /* Tic_Tac_Toe.xcdatamodeld */,
+				ADAABA77266776B50095800F /* Logic.swift */,
 			);
 			path = "Tic-Tac-Toe";
 			sourceTree = "<group>";
@@ -141,7 +147,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADAABA64266776990095800F /* ViewController.swift in Sources */,
+				ADAABA78266776B50095800F /* Logic.swift in Sources */,
 				ADAABA60266776990095800F /* AppDelegate.swift in Sources */,
+				AD56D40C266F853F00B1F137 /* MainViewController.swift in Sources */,
 				ADAABA6A266776990095800F /* Tic_Tac_Toe.xcdatamodeld in Sources */,
 				ADAABA62266776990095800F /* SceneDelegate.swift in Sources */,
 			);
